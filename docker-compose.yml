@@ -1,0 +1,12 @@
+version: "1"
+services: 
+  nginx-react:
+    image: nbadproject:santosh
+    container_name: personal-budget-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment:
+      NODE_ENV: production

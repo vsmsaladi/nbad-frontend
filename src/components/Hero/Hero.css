@@ -1,0 +1,25 @@
+header.hero {
+    height: 350px;
+    background-color: #b4c6f0;
+    background-image: url('../../assets/bg.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 40px;
+  }
+  
+  header.hero h1,
+  header.hero h2 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  header.hero h1 {
+    color: #fff;
+    font-size: 4.2em;
+    margin-bottom: 20px;
+  }
+  
+  header.hero h2 {
+    color: #4d5791;
+  }

@@ -1,0 +1,9 @@
+#loginsignup-btn{
+    color:white;
+    border-color: white;
+}
+
+#loginsignup-btn:hover{
+    color:black;
+    background-color: white;
+}
