@@ -72,13 +72,14 @@ export default function SignUp() {
         case 200:
           setSuccessOpen(true);
           setSuccessMessage(response.data.message);
+          localStorage.setItem("token", response.data.token);
+          window.location.href = "/"
           break;
         default:
           setErrorOpen(true);
           setErrorMessage(response.data.message);
           break;
       }
-      localStorage.setItem("token", response.data.token);
     } catch (error) {
       setErrorMessage("Server error. Please try again Later");
     }
